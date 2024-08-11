@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1,h2,h3,h4,h5,h6,a,li,p{
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Add some padding for spacing */
+}
+
+.collap-icon {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    background: none!important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    background-color: #0a58ca;
+    color:  #f0f0f0;
+}
+
+h2.mb-4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+label {
+    font-family: 'Poppins';
+    font-size: 14px!important;
+    width: 100%!important;
+}
+
+input::placeholder {
+    font-family: 'Poppins';
+    font-size: 14px !important;
+}
+
+input {
+    padding: 10px!important;
+    border: 1px solid #ccc!important;
+}
+
+main.col-md-9.col-lg-10.p-4 {
+    padding: 45px 89px!important;
+}
+
+form button {
+    background: #0d6efd !important;
+    padding: 10px 57px!important;
+    margin-top: 19px;
+    line-height: 1.7!important;
+}
+
+ul.dropdown-menu.show {
+    border: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+ul.dropdown-menu.show li {
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    padding: 4px 0px;
+}
+
+form button:hover {
+    background: #0746a4 !important;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer.bg-primary.text-white.text-center.py-3.mt-auto {
+    padding: 9px!important;
+}
+input:focus {
+    box-shadow: none!important;
+    border: 1px solid #0d6efd !important;
+}
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+tr {
+    font-family: 'Poppins';
+    font-size: 14px;
+    width: 100%!important;
+}
+
+
+
+table.table {
+    border: 1px solid #ccc!important;
+}
+
+
+
+
+@media(max-width:991px){
+    main.col-md-9.col-lg-10.p-4 {
+        padding: 45px 29px!important;
+    }
+    h1 {
+        font-size: 23px;
+    }
+    a#studentDropdown {
+        text-align: center;
+    }
+    aside.col-md-3.col-lg-2.bg-light.p-3.d-md-block {
+        background: none!important;
+        padding: 0px!important;
+    }
+    a#studentDropdown {
+        text-align: center;
+        background: #f7eeee;
+        color: #0d6efd;
+    }
+    .sms {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .container-login {
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+}
+
+.login-form {
+    padding: 3rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input[type=submit].btn-block {
+    width: 100%;
+}
+
+
+.logout a{
+    text-decoration: none;
+}
+
+.search-input {
+    width: 100px !important;
+    height: 38px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.select {
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.right-btn {
+    margin-left: auto;
+}
+.right-btn{
+    text-decoration: none;
+}
+
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-link {
+    margin: 0 5px;
+}
+
+.page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+
+.page-item.disabled .page-link {
+    color: #ccc;
+    pointer-events: none;
+}
